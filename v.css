@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bck.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(230, 114, 162);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px 45px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+nav ul li a:hover{
+    color:  rgb(230, 114, 162);
+    transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    font-size: 25px;
+   
+}
+
+h1{
+    color:  rgb(230, 114, 162);
+    margin: 20px 0px 20px;
+    font-size: 65px;
+    font-family: monospace;
+}
+
+h1:hover{
+    color:  rgb(156, 13, 73);
+    transition: .4s;
+}
+
+.btn{
+    background-color:  rgb(230, 114, 162);
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: transform .4s;
+    /* font-size: 30px; */
+    
+}
+
+.btn:hovwe{
+    transform: scale(1.2);
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    
+    background-image: url(eva.jpg);
+}
+
+/* .about img{
+    height: auto;
+    width: 430px;
+} */
+
+.ab-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ab-text h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.ab-text h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
